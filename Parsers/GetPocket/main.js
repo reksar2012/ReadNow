@@ -2,12 +2,6 @@
 const MongoClient = require('mongodb').MongoClient;
 const puppeteer = require('puppeteer');
 const getPocket = require('pocket-api');
-const {
-    Builder,
-    By,
-    Key,
-    until
-} = require('selenium-webdriver');
 
 
 

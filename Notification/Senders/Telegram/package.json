@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ngrok": "^3.3.0",
-    "node-telegram-bot-api": "^0.50.0",
-    "node-vault": "^0.9.20"
+    "express": "^4.17.1",
+    "ngrok": "2.3.0",
+    "node-telegram-bot-api": "^0.50.0"
   }
 }

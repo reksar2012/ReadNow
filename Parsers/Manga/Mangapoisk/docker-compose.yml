@@ -1,0 +1,39 @@
+version: '3.4'
+
+services:
+  mangapoiskparser1:
+    image: mangapoiskparser
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment: 
+      - ParceMode=listening
+
+  mangapoiskparser2:
+    image: mangapoiskparser
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment: 
+      - ParceMode=listening
+  mangapoiskparser3:
+    image: mangapoiskparser
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment: 
+      - ParceMode=listening
+  mangapoiskparser4:
+    image: mangapoiskparser
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment: 
+      - ParceMode=listening
+  mangapoiskparser5:
+    image: mangapoiskparser
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment: 
+      - ParceMode=listening
